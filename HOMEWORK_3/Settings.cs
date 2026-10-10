@@ -10,10 +10,11 @@ namespace ORISFigmaServer
     {
         public ServerConfig Server { get; set; } = new ServerConfig();
     }
+
     internal class ServerConfig
     {
-        public string Port { get; set; } = "4242";
-        public string Host { get; set; } = "127.0.0.1";
-        public string Path { get; set; } = "connection";
+        public string Port { get; set; }
+        public string Host { get; set; }
     }
 }
+
