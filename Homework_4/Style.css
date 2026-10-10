@@ -1,0 +1,590 @@
+body {
+    margin: 0;
+    background-color: #171d25;
+}
+.banner {
+    width: 100%;
+    height: 104px;
+    background-color: #171d25;
+}
+.content {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 1200px;
+    height: 104px;
+    margin: 0px auto;
+}
+.logo {
+    width: 176px;
+    margin-right: 40px;
+}
+.logo img {
+    width: 144.5px;
+    height: 44px;
+    display: block;
+}
+.navigation {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}
+.menuitem {
+    color: #d6d7d8;
+    text-decoration: none;
+    font-family: "Motiva Sans", Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 16px;
+}
+.menuitem:hover {
+    color: white;
+}
+.menuitem:first-child {
+    color: #1a9fff;
+    border-bottom: 3px solid #1a9fff;
+    padding: 7px 0px 3px;
+}
+.global_action_menu {
+    position: absolute;
+    top: 8px;
+    right: 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: "Motiva Sans", Arial, sans-serif;
+    font-size: 13px;
+}
+.global_action_menu a {
+    color: #b8b6b4;
+    text-decoration: none;
+}
+.global_action_menu a:hover {
+    color: white;
+}
+.header_installsteam_btn_content {
+    background-color: #5c7e10;
+    color: #e5e4dc;
+    background-position: 10px 5px;
+    background-image: url(https://store.fastly.steamstatic.com/public/shared/images/header/btn_header_installsteam_download.png?v=1);
+    background-repeat: no-repeat;
+    font-size: 11px;
+    padding: 5px 9px 5px 35px;
+}
+.header_installsteam_btn_content:hover {
+    background-color: #739300;
+}
+.languages {
+    color: #b8b6b4;
+    border-left: 1px solid #555;
+    padding: 0px 18px 0px 5px;
+    margin-right: 5px;
+    font-size: 11px;
+    background-image: url(https://store.fastly.steamstatic.com/public/shared/images/popups/btn_arrow_down_padded.png);
+    background-position: right center;
+    background-repeat: no-repeat;
+}
+.panel {
+    width: 100%;
+    height: 46px;
+    background: radial-gradient(107.95% 57.49% at 50% 100%,rgba(24, 37, 53, 0.2) 0%,rgba(24, 37, 53, 0.5215686275) 5%,rgba(24, 37, 53, 0.8509803922) 20%,#182535 60%,#192330 100%);
+}
+.focuspanel {
+    width: 1200px;
+    height: 46px;
+    margin: 0 auto;
+}
+.main-panel {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.left-panel {
+    display: flex;
+    align-items: center;
+}
+.nav-button {
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    color: #f5f5f5;
+    gap: 5px;
+    font-family: "Motiva Sans", Arial, sans-serif;
+    font-size: 13px;
+    white-space: nowrap;
+    cursor: pointer;
+}
+.nav-button span {
+    display: block;
+}
+.nav-button svg {
+    width: 12px;
+    height: 12px;
+    display: block;
+    color: #f5f5f5;
+    flex-shrink: 0;
+}
+.nav-button:hover {
+    color: white;
+}
+.nav-button:hover svg {
+    color: white;
+}
+.right-panel {
+    display: flex;
+    align-items: center;
+}
+.store-search {
+    display: flex;
+    align-items: center;
+    height: 34px;
+    width: 602px; 
+    margin-inline-start: 16px;
+    justify-content: end;
+    box-sizing: border-box;
+}
+.store-search input {
+    display: flex;
+    align-items: flex-end;
+    height: 34px;
+    width: 446px;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    padding: 0 10px;
+    border: 1px solid #525962; border-top-left-radius: 2px; border-bottom-left-radius: 2px;
+    background-color: rgba(255, 255, 255, 0.125);
+    font-family: "Motiva Sans", Arial, sans-serif;
+    font-size: 13px;
+    font-style: italic;
+    caret-color: white;
+}
+.store-search input:focus {
+    border: 1px solid #2B6591;
+}
+.store-search input::placeholder {
+    color: #d6d7d8;
+}
+.store-search button {
+    width: 34px;
+    height: 34px;
+    border: none;
+    background-color: #1a9fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.store-search button svg {
+    width: 19px;
+    height: 19px;
+    display: block;
+}
+.store-search button:hover {
+    background-color: #2aa9ff;
+}
+.page_content {
+    width: 100%;
+    min-height: calc(100vh - 150px);
+    background-color: #171d25;
+    background-image:
+    linear-gradient(rgba(23, 29, 37, 0.82),rgba(23, 29, 37, 0.82)),url("https://store.fastly.steamstatic.com/public/shared/images/join/login_bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 1px;
+    box-sizing: border-box;
+}
+.login_featuretarget_ctn {
+    width: 100%;
+    background-image: radial-gradient(circle at center, rgba(24, 28, 37, 0) 0%, rgba(24, 28, 37, 0.95) 100%),  url("https://store.fastly.steamstatic.com/public/shared/images/joinsteam/new_login_bg_strong_mask.jpg");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 140% auto; 
+}
+.sign-in-panel {
+    padding-top: 80px;
+    padding-bottom: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sign-in {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    height: 432px;
+}
+.sign-in-name {
+    font-family: "Motiva Sans", sans-serif;
+    font-size: 28px;
+    font-weight: 800;
+    margin: 10px 16px 18px 16px;
+    color: white;
+}
+.sign-in-name::after {
+    content: "Sign in";
+}
+.login-panel {
+    background-color: #181a21;
+    border-radius: 4px;
+    padding: 24px 32px;
+    flex: 1;
+}
+.login {
+    display: flex;
+    align-items: flex-start;
+    padding-top: 10px;
+    height: 280px;
+    width: 636px;
+}
+.acc-sign-in form{
+    align-items: center;
+    flex: 1;
+    display: grid;
+    gap: 12px;
+    height: 100%;
+    width: 397px;
+}
+.login-pass {
+    width: 100%;
+}
+.naming {
+    margin-bottom: 7px;
+    color: #1a9fff;
+    font-family: "Motiva Sans", Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.login-pass:nth-child(2) .naming {
+    color: #b8b6b4;
+}
+.search-login-pass {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #d6d7d8;
+    border-radius: 0;
+    outline: none;
+    background-color: #e8f3ff;
+    padding: 10px;
+    color: #171d25;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+.search-login-pass:focus {
+    border: 1px solid #1a9fff;
+}
+.search-login-pass input {
+    height: 17.6px;
+}
+.name-remember-me {
+    display: flex;
+    align-items: center;
+    height: 20px;
+    color: #d6d7d8;
+    font-family: "Motiva Sans", Arial, sans-serif;
+    font-size: 12px;
+}
+.img-agree {
+    width: 14px;
+    height: 14px;
+    padding: 3px;
+    margin-right: 6px;
+    background-color: #3b3f46;
+    position: relative;
+}
+.img-agree::after {
+    content: "✓";
+    position: absolute;
+    height: 14px;
+    width: 14px;
+    left: 4px;
+    bottom: 5px;
+    color: white;
+    font-size: 14px;
+}
+.name-remember-me span::after {
+    content: "Remember me";
+}
+.button-sign-in {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.but-sign-in {
+    width: 270px;
+    height: 46px;
+    border: none;
+    border-radius: 2px;
+    background: linear-gradient(90deg,#06bfff 0%,#2b74ff 100%);
+    color: white;
+    font-family: "Motiva Sans", Arial, sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+}
+.but-sign-in:hover {
+    background: linear-gradient(90deg, #18c5ff 0%,#3b82ff 100%);
+}
+.empty-panel {
+    height: 17.6px;
+}
+.help {
+    display: block;
+    text-align: center;
+    color: #afafaf;
+    font-family: "Motiva Sans", Arial, sans-serif;
+    font-size: 12px;
+    text-decoration: underline;
+}
+.help:hover {
+    color: white;
+}
+.qr-place {
+    width: 199px;
+    margin: 0;
+    padding: 0;
+    margin-left: 40px;
+}
+.qr-and-steammobile {
+    width: 199px;
+}
+.qr-and-steammobile  .naming {
+    color: #1a9fff;
+    width: 199px;
+}
+.qr-place .qr-place {
+    width: 199px;
+    height: 199px;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    border-radius: 7.5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.qr {
+    width: 228px;
+    height: 228px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.qr img {
+    width: 228px;
+    height: 228px;
+    display: block;
+    object-fit: contain;
+}
+.steammobile {
+    width: 199px;
+    margin-top: 12px;
+    text-align: center;
+    color: #b8b6b4;
+    font-family: "Motiva Sans", Arial, sans-serif;
+    font-size: 12px;
+    line-height: 22px;
+}
+.steammobile a {
+    color: #afafaf;
+    text-decoration: underline;
+}
+.steammobile a:hover {
+    color: white;
+}
+.footer-registration {
+    width: 100%;
+    background-color: #171d25;
+    padding: 40px 0;
+    border-bottom: 1px solid #2a313c;
+}
+.footer-reg-content {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 80px;
+}
+.reg-left {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: flex-start;
+}
+.reg-title {
+    font-family: "Motiva Sans", Arial, sans-serif;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 800;
+}
+.btn-create-account {
+    display: inline-block;
+    background-color: #1a9fff;
+    color: #fff;
+    font-family: "Motiva Sans", Arial, sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 12px 34px;
+    border-radius: 2px;
+}
+.btn-create-account:hover {
+    background-color: #2aa9ff;
+}
+.reg-right {
+    font-family: "Motiva Sans", Arial, sans-serif;
+    color: #b8b6b4;
+    font-size: 14px;
+    max-width: 320px;
+    line-height: 20px;
+}
+.reg-right a {
+    color: #fff;
+    text-decoration: underline;
+}
+.reg-right a:hover {
+    color: #1a9fff;
+}
+.login_bottom_row {
+    display: flex;
+    gap: 80px;
+    padding-top: 48px;
+    width: 100%;
+    justify-content: center;
+    background-color: #181A21;
+}
+.login_btn_acc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+.login_btn_acc .headline {
+    font-family: "Motiva Sans", Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    color: white;
+}
+.login_create_btn{
+    display: block;
+    color: #fff;
+    font-family: "Motiva Sans", Arial, sans-serif;
+    text-decoration: none;
+    padding: 3px 20px;
+    border-radius: 2px;
+    margin: 10px 0;
+    height: 30px; 
+}
+.login_create_btn:hover span{
+    background-color: #2aa9ff;
+}
+.login_create_btn span{
+    background-color: #1a9fff;
+    padding: 6px 20px;
+    font-size: 15px;
+}
+.login_bottom_row_item {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 300px;
+}
+.login_bottom_row_item .subtext {
+    font-family: "Motiva Sans", Arial, sans-serif;
+    color: #b8b6b4;
+    font-size: 14px;
+    line-height: 20px;
+}
+.login_join_desc {
+    color: #b8b6b4;
+    text-decoration: underline;
+}
+.login_join_desc:hover {
+    color: #1a9fff;
+}
+.footer-main {
+    background-color: #181A21;
+    padding: 40px;
+}
+.footer-main-content {
+    width: 1380px;
+    height: 182px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+}
+.footer-left {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.footer-logos {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.logo-steam {
+    height: 25px;
+}
+.logo-valve {
+    height: 25px;
+}
+.footer-text {
+    font-family: "Motiva Sans", Arial, sans-serif;
+    color: #acb2b8;
+    font-size: 11px;
+    line-height: 14px;
+    text-wrap: balance; 
+}
+.footer-socials {
+    display: flex;
+    gap: 32px;
+}
+.social-icon {
+    color: #8b929a;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: color 0.2s;
+}
+.social-icon:hover {
+    color: #66C0F4;;
+}
+.footer-links-columns {
+    display: flex;
+    gap: 64px;
+}
+.footer-col {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.col-title {
+    font-family: "Motiva Sans", Arial, sans-serif;
+    color: #b8bcbf;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 6px;
+}
+.footer-col a {
+    font-family: "Motiva Sans", Arial, sans-serif;
+    color: #8b929a;
+    font-size: 13px;
+    text-decoration: none;
+}
+.footer-col a:hover {
+    color: #66C0F4;
+}
