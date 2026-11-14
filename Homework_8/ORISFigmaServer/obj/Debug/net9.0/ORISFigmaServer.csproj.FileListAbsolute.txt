@@ -1,0 +1,68 @@
+C:\Users\user\source\repos\ORISFigmaServer\ORISFigmaServer\bin\Debug\net9.0\ORISFigmaServer.exe
+C:\Users\user\source\repos\ORISFigmaServer\ORISFigmaServer\bin\Debug\net9.0\ORISFigmaServer.deps.json
+C:\Users\user\source\repos\ORISFigmaServer\ORISFigmaServer\bin\Debug\net9.0\ORISFigmaServer.runtimeconfig.json
+C:\Users\user\source\repos\ORISFigmaServer\ORISFigmaServer\bin\Debug\net9.0\ORISFigmaServer.dll
+C:\Users\user\source\repos\ORISFigmaServer\ORISFigmaServer\bin\Debug\net9.0\ORISFigmaServer.pdb
+C:\Users\user\source\repos\ORISFigmaServer\ORISFigmaServer\obj\Debug\net9.0\ORISFigmaServer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\source\repos\ORISFigmaServer\ORISFigmaServer\obj\Debug\net9.0\ORISFigmaServer.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\ORISFigmaServer\ORISFigmaServer\obj\Debug\net9.0\ORISFigmaServer.AssemblyInfo.cs
+C:\Users\user\source\repos\ORISFigmaServer\ORISFigmaServer\obj\Debug\net9.0\ORISFigmaServer.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\ORISFigmaServer\ORISFigmaServer\obj\Debug\net9.0\ORISFigmaServer.dll
+C:\Users\user\source\repos\ORISFigmaServer\ORISFigmaServer\obj\Debug\net9.0\refint\ORISFigmaServer.dll
+C:\Users\user\source\repos\ORISFigmaServer\ORISFigmaServer\obj\Debug\net9.0\ORISFigmaServer.pdb
+C:\Users\user\source\repos\ORISFigmaServer\ORISFigmaServer\obj\Debug\net9.0\ORISFigmaServer.genruntimeconfig.cache
+C:\Users\user\source\repos\ORISFigmaServer\ORISFigmaServer\obj\Debug\net9.0\ref\ORISFigmaServer.dll
+C:\Users\user\source\repos\ORISFigmaServer\ORISFigmaServer\bin\Debug\net9.0\Setting.json
+C:\Users\user\source\repos\ORISFigmaServer\ORISFigmaServer\bin\Debug\net9.0\MSTest.TestFramework.dll
+C:\Users\user\source\repos\ORISFigmaServer\ORISFigmaServer\bin\Debug\net9.0\cs\MSTest.TestFramework.resources.dll
+C:\Users\user\source\repos\ORISFigmaServer\ORISFigmaServer\bin\Debug\net9.0\de\MSTest.TestFramework.resources.dll
+C:\Users\user\source\repos\ORISFigmaServer\ORISFigmaServer\bin\Debug\net9.0\es\MSTest.TestFramework.resources.dll
+C:\Users\user\source\repos\ORISFigmaServer\ORISFigmaServer\bin\Debug\net9.0\fr\MSTest.TestFramework.resources.dll
+C:\Users\user\source\repos\ORISFigmaServer\ORISFigmaServer\bin\Debug\net9.0\it\MSTest.TestFramework.resources.dll
+C:\Users\user\source\repos\ORISFigmaServer\ORISFigmaServer\bin\Debug\net9.0\ja\MSTest.TestFramework.resources.dll
+C:\Users\user\source\repos\ORISFigmaServer\ORISFigmaServer\bin\Debug\net9.0\ko\MSTest.TestFramework.resources.dll
+C:\Users\user\source\repos\ORISFigmaServer\ORISFigmaServer\bin\Debug\net9.0\pl\MSTest.TestFramework.resources.dll
+C:\Users\user\source\repos\ORISFigmaServer\ORISFigmaServer\bin\Debug\net9.0\pt-BR\MSTest.TestFramework.resources.dll
+C:\Users\user\source\repos\ORISFigmaServer\ORISFigmaServer\bin\Debug\net9.0\ru\MSTest.TestFramework.resources.dll
+C:\Users\user\source\repos\ORISFigmaServer\ORISFigmaServer\bin\Debug\net9.0\tr\MSTest.TestFramework.resources.dll
+C:\Users\user\source\repos\ORISFigmaServer\ORISFigmaServer\bin\Debug\net9.0\zh-Hans\MSTest.TestFramework.resources.dll
+C:\Users\user\source\repos\ORISFigmaServer\ORISFigmaServer\bin\Debug\net9.0\zh-Hant\MSTest.TestFramework.resources.dll
+C:\Users\user\source\repos\ORISFigmaServer\ORISFigmaServer\bin\Debug\net9.0\MSTest.TestFramework.Extensions.dll
+C:\Users\user\source\repos\ORISFigmaServer\ORISFigmaServer\bin\Debug\net9.0\MSTest.TestFramework.Extensions.xml
+C:\Users\user\source\repos\ORISFigmaServer\ORISFigmaServer\obj\Debug\net9.0\ORISFigmaServer.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\ORISFigmaServer\ORISFigmaServer\obj\Debug\net9.0\ORISFigm.8E58F46E.Up2Date
+C:\Users\Gregory\Desktop\Важное\Visual studio\ORISFigmaServer\ORISFigmaServer\obj\Debug\net9.0\ORISFigmaServer.csproj.AssemblyReference.cache
+C:\Users\Gregory\Desktop\Важное\Visual studio\ORISFigmaServer\ORISFigmaServer\obj\Debug\net9.0\ORISFigmaServer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gregory\Desktop\Важное\Visual studio\ORISFigmaServer\ORISFigmaServer\obj\Debug\net9.0\ORISFigmaServer.AssemblyInfoInputs.cache
+C:\Users\Gregory\Desktop\Важное\Visual studio\ORISFigmaServer\ORISFigmaServer\obj\Debug\net9.0\ORISFigmaServer.AssemblyInfo.cs
+C:\Users\Gregory\Desktop\Важное\Visual studio\ORISFigmaServer\ORISFigmaServer\obj\Debug\net9.0\ORISFigmaServer.csproj.CoreCompileInputs.cache
+C:\Users\Gregory\Desktop\Важное\Visual studio\ORISFigmaServer\ORISFigmaServer\obj\Debug\net9.0\ORISFigmaServer.dll
+C:\Users\Gregory\Desktop\Важное\Visual studio\ORISFigmaServer\ORISFigmaServer\obj\Debug\net9.0\refint\ORISFigmaServer.dll
+C:\Users\Gregory\Desktop\Важное\Visual studio\ORISFigmaServer\ORISFigmaServer\obj\Debug\net9.0\ORISFigmaServer.pdb
+C:\Users\Gregory\Desktop\Важное\Visual studio\ORISFigmaServer\ORISFigmaServer\bin\Debug\net9.0\Setting.json
+C:\Users\Gregory\Desktop\Важное\Visual studio\ORISFigmaServer\ORISFigmaServer\bin\Debug\net9.0\ORISFigmaServer.exe
+C:\Users\Gregory\Desktop\Важное\Visual studio\ORISFigmaServer\ORISFigmaServer\bin\Debug\net9.0\ORISFigmaServer.deps.json
+C:\Users\Gregory\Desktop\Важное\Visual studio\ORISFigmaServer\ORISFigmaServer\bin\Debug\net9.0\ORISFigmaServer.runtimeconfig.json
+C:\Users\Gregory\Desktop\Важное\Visual studio\ORISFigmaServer\ORISFigmaServer\bin\Debug\net9.0\ORISFigmaServer.dll
+C:\Users\Gregory\Desktop\Важное\Visual studio\ORISFigmaServer\ORISFigmaServer\bin\Debug\net9.0\ORISFigmaServer.pdb
+C:\Users\Gregory\Desktop\Важное\Visual studio\ORISFigmaServer\ORISFigmaServer\bin\Debug\net9.0\MSTest.TestFramework.dll
+C:\Users\Gregory\Desktop\Важное\Visual studio\ORISFigmaServer\ORISFigmaServer\bin\Debug\net9.0\cs\MSTest.TestFramework.resources.dll
+C:\Users\Gregory\Desktop\Важное\Visual studio\ORISFigmaServer\ORISFigmaServer\bin\Debug\net9.0\de\MSTest.TestFramework.resources.dll
+C:\Users\Gregory\Desktop\Важное\Visual studio\ORISFigmaServer\ORISFigmaServer\bin\Debug\net9.0\es\MSTest.TestFramework.resources.dll
+C:\Users\Gregory\Desktop\Важное\Visual studio\ORISFigmaServer\ORISFigmaServer\bin\Debug\net9.0\fr\MSTest.TestFramework.resources.dll
+C:\Users\Gregory\Desktop\Важное\Visual studio\ORISFigmaServer\ORISFigmaServer\bin\Debug\net9.0\it\MSTest.TestFramework.resources.dll
+C:\Users\Gregory\Desktop\Важное\Visual studio\ORISFigmaServer\ORISFigmaServer\bin\Debug\net9.0\ja\MSTest.TestFramework.resources.dll
+C:\Users\Gregory\Desktop\Важное\Visual studio\ORISFigmaServer\ORISFigmaServer\bin\Debug\net9.0\ko\MSTest.TestFramework.resources.dll
+C:\Users\Gregory\Desktop\Важное\Visual studio\ORISFigmaServer\ORISFigmaServer\bin\Debug\net9.0\pl\MSTest.TestFramework.resources.dll
+C:\Users\Gregory\Desktop\Важное\Visual studio\ORISFigmaServer\ORISFigmaServer\bin\Debug\net9.0\pt-BR\MSTest.TestFramework.resources.dll
+C:\Users\Gregory\Desktop\Важное\Visual studio\ORISFigmaServer\ORISFigmaServer\bin\Debug\net9.0\ru\MSTest.TestFramework.resources.dll
+C:\Users\Gregory\Desktop\Важное\Visual studio\ORISFigmaServer\ORISFigmaServer\bin\Debug\net9.0\tr\MSTest.TestFramework.resources.dll
+C:\Users\Gregory\Desktop\Важное\Visual studio\ORISFigmaServer\ORISFigmaServer\bin\Debug\net9.0\zh-Hans\MSTest.TestFramework.resources.dll
+C:\Users\Gregory\Desktop\Важное\Visual studio\ORISFigmaServer\ORISFigmaServer\bin\Debug\net9.0\zh-Hant\MSTest.TestFramework.resources.dll
+C:\Users\Gregory\Desktop\Важное\Visual studio\ORISFigmaServer\ORISFigmaServer\bin\Debug\net9.0\MSTest.TestFramework.Extensions.dll
+C:\Users\Gregory\Desktop\Важное\Visual studio\ORISFigmaServer\ORISFigmaServer\bin\Debug\net9.0\MSTest.TestFramework.Extensions.xml
+C:\Users\Gregory\Desktop\Важное\Visual studio\ORISFigmaServer\ORISFigmaServer\obj\Debug\net9.0\ORISFigm.8E58F46E.Up2Date
+C:\Users\Gregory\Desktop\Важное\Visual studio\ORISFigmaServer\ORISFigmaServer\obj\Debug\net9.0\ORISFigmaServer.genruntimeconfig.cache
+C:\Users\Gregory\Desktop\Важное\Visual studio\ORISFigmaServer\ORISFigmaServer\obj\Debug\net9.0\ref\ORISFigmaServer.dll
+C:\Users\Gregory\Desktop\Важное\Visual studio\ORISFigmaServer\ORISFigmaServer\bin\Debug\net9.0\MiniTemplateEngine.dll
+C:\Users\Gregory\Desktop\Важное\Visual studio\ORISFigmaServer\ORISFigmaServer\bin\Debug\net9.0\MiniTemplateEngine.pdb

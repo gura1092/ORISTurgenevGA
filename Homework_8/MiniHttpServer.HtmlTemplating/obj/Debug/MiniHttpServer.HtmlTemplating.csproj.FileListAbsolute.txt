@@ -1,0 +1,6 @@
+C:\Users\Gregory\Desktop\Важное\Visual studio\ORISFigmaServer\MiniHttpServer.HtmlTemplating\bin\Debug\MiniHttpServer.HtmlTemplating.dll
+C:\Users\Gregory\Desktop\Важное\Visual studio\ORISFigmaServer\MiniHttpServer.HtmlTemplating\bin\Debug\MiniHttpServer.HtmlTemplating.pdb
+C:\Users\Gregory\Desktop\Важное\Visual studio\ORISFigmaServer\MiniHttpServer.HtmlTemplating\obj\Debug\MiniHttpServer.HtmlTemplating.csproj.AssemblyReference.cache
+C:\Users\Gregory\Desktop\Важное\Visual studio\ORISFigmaServer\MiniHttpServer.HtmlTemplating\obj\Debug\MiniHttpServer.HtmlTemplating.csproj.CoreCompileInputs.cache
+C:\Users\Gregory\Desktop\Важное\Visual studio\ORISFigmaServer\MiniHttpServer.HtmlTemplating\obj\Debug\MiniHttpServer.HtmlTemplating.dll
+C:\Users\Gregory\Desktop\Важное\Visual studio\ORISFigmaServer\MiniHttpServer.HtmlTemplating\obj\Debug\MiniHttpServer.HtmlTemplating.pdb

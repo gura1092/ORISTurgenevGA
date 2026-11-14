@@ -1,0 +1,16 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Список пользователей</title>
+		</meta>
+</head>
+<body>
+    <h1>Пользователи из PostgreSQL</h1>
+    <ul>
+        $foreach(var user in Users)
+            <li>${user.Id}. ${user.Name} (${user.Email}) — ${user.Age} лет</li>
+        $endforeach
+    </ul>
+</body>
+</html>

@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+		<title>Профиль пользователя</title>
+	</meta>
+</head>
+<body>
+    <h1>Профиль: ${Name}</h1>
+    <p>Возраст: ${Age}</p>
+    <p>Город: ${Address.City}, группа: ${Address.Group}</p>
+
+    $if(IsOnline)
+        <p style="color: green;">Статус: В сети</p>
+    $else
+        <p style="color: gray;">Статус: Не в сети</p>
+    $endif
+
+    <h2>Навыки:</h2>
+    <ul>
+        $foreach(var skill in Skills)
+            <li>
+                ${skill.Title}
+                $if(skill.IsPrimary)
+                    <strong>(Основной)</strong>
+                $endif
+            </li>
+        $endforeach
+    </ul>
+</body>
+</html>

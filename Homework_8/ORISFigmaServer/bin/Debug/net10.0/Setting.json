@@ -1,0 +1,8 @@
+{
+  "Server": {
+    "Port": "4242",
+    "Host": "127.0.0.1",
+    "Path": "search-engine",
+    "ConnectionString": "Host=localhost;Port=5433;Database=OrisDb;Username=postgres;Password=postgres"
+  }
+}
