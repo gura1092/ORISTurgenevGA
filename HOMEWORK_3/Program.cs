@@ -1,22 +1,34 @@
-﻿using System;
-using System.IO;
-using System.Text.Json;
-using System.Threading.Tasks;
+namespace ORISFigmaServer;
 
-namespace ORISFigmaServer
+internal static class Program
 {
-    internal class Program
+    private static async Task Main()
     {
-        static void Main(string[] args)
+        try
         {
-            string settings = File.ReadAllText("Setting.json");
-            Settings setting = JsonSerializer.Deserialize<Settings>(settings);
-            HttpServer server = new HttpServer($"http://{setting.Server.Host}:{setting.Server.Port}/", "C:\\Users\\user\\Desktop\\Орис\\Untitled-1.html");
-            Task.Run(() => server.Start());
-            Console.WriteLine($"Адрес: http://{setting.Server.Host}:{setting.Server.Port}/");
+            Settings settings = ConfigurationManager.Instance.Settings;
+            string prefix = $"http://{settings.Server.Host}:{settings.Server.Port}/";
+            string staticRoot = Path.Combine(AppContext.BaseDirectory, "static");
+
+            using var server = new HttpServer(prefix, staticRoot);
+            using var cancellation = new CancellationTokenSource();
+
+            Console.CancelKeyPress += (_, e) =>
+            {
+                e.Cancel = true;
+                cancellation.Cancel();
+            };
+
+            Task serverTask = server.StartAsync(cancellation.Token);
             Console.WriteLine("Нажмите Enter для остановки сервера...");
             Console.ReadLine();
+            cancellation.Cancel();
             server.Stop();
+            await serverTask;
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Ошибка запуска: {ex.Message}");
         }
     }
 }

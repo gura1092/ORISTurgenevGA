@@ -1,20 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+namespace ORISFigmaServer;
 
-namespace ORISFigmaServer
+internal sealed class Settings
 {
-    internal class Settings
-    {
-        public ServerConfig Server { get; set; } = new ServerConfig();
-    }
-
-    internal class ServerConfig
-    {
-        public string Port { get; set; }
-        public string Host { get; set; }
-    }
+    public ServerConfig Server { get; set; } = new();
 }
 
+internal sealed class ServerConfig
+{
+    public string Host { get; set; } = "127.0.0.1";
+    public int Port { get; set; } = 4242;
+}
