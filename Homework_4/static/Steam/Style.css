@@ -242,7 +242,7 @@ body {
     height: 280px;
     width: 636px;
 }
-.acc-sign-in form{
+.acc-sign-in {
     align-items: center;
     flex: 1;
     display: grid;
@@ -512,6 +512,7 @@ body {
     color: #1a9fff;
 }
 .footer-main {
+    width: 100%;
     background-color: #181A21;
     padding: 40px;
 }
