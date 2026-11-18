@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "MiniHttpServer": {
+      "commandName": "Project",
+      "launchBrowser": false,
+      "dotnetRunMessages": true
+    }
+  }
+}

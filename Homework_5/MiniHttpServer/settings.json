@@ -1,0 +1,14 @@
+{
+  "Server": {
+    "Host": "127.0.0.1",
+    "Port": 4242
+  },
+  "Email": {
+    "UseSmtp": false,
+    "Host": "localhost",
+    "Port": 1025,
+    "EnableSsl": false,
+    "From": "demo@example.local",
+    "To": "student@example.local"
+  }
+}
