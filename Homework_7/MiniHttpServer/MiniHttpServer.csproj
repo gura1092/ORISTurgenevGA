@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>MiniHttpServer</AssemblyName>
+    <RootNamespace>MiniHttpServer</RootNamespace>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+  </PropertyGroup>
+
+  <!-- Compile only the main application's source files.
+       Framework and HtmlTemplating are compiled by their own projects. -->
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Controllers/**/*.cs" />
+    <Compile Include="Services/**/*.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="MiniHttpServer.Framework/MiniHttpServer.Framework.csproj" />
+    <ProjectReference Include="MiniHttpServer.HtmlTemplating/MiniHttpServer.HtmlTemplating.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="settings.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="static/**/*">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Templates/**/*">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+</Project>

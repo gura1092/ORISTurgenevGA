@@ -1,0 +1,4 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><TargetFramework>net10.0</TargetFramework><ImplicitUsings>enable</ImplicitUsings><Nullable>enable</Nullable><RootNamespace>MiniHttpServer.Framework</RootNamespace></PropertyGroup>
+  <ItemGroup><ProjectReference Include="../MiniHttpServer.HtmlTemplating/MiniHttpServer.HtmlTemplating.csproj" /></ItemGroup>
+</Project>

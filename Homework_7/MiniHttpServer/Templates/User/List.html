@@ -1,0 +1,15 @@
+<!DOCTYPE html><html lang="ru"><head><meta charset="UTF-8"><title>Пользователи</title><style>body{font-family:Arial,sans-serif;max-width:900px;margin:40px auto;padding:0 20px}.user{border:1px solid #ddd;border-radius:10px;margin:12px 0;padding:16px}.active{color:green}.inactive{color:#a33}</style></head><body><h1>Список пользователей</h1>
+$foreach(var user in Users)
+<section class="user"><h2>${user.Name}</h2><p>${user.Email}</p>
+$if(user.IsActive)
+<p class="active">Активен</p>
+$else
+<p class="inactive">Неактивен</p>
+$endif
+<h3>Проекты</h3><ul>
+$foreach(var project in user.Projects)
+<li>${project}</li>
+$endfor
+</ul></section>
+$endfor
+<p><a href="/user/profile">Профиль</a></p></body></html>
