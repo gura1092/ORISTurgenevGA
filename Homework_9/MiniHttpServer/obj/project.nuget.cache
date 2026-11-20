@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "NQHw3f+ZtPE=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Gregory\\Desktop\\MiniHttpServerProject\\MiniHttpServer\\MiniHttpServer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Gregory\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\11.0.0\\microsoft.extensions.dependencyinjection.abstractions.11.0.0.nupkg.sha512",
+    "C:\\Users\\Gregory\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\11.0.0\\microsoft.extensions.logging.abstractions.11.0.0.nupkg.sha512",
+    "C:\\Users\\Gregory\\.nuget\\packages\\npgsql\\11.0.0\\npgsql.11.0.0.nupkg.sha512",
+    "C:\\Users\\Gregory\\.nuget\\packages\\system.diagnostics.diagnosticsource\\11.0.0\\system.diagnostics.diagnosticsource.11.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

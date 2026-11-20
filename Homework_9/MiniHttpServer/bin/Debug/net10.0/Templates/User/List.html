@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head><meta charset="UTF-8"><title>Пользователи OrisDb</title><style>body{font-family:Arial,sans-serif;max-width:900px;margin:40px auto;padding:0 20px}table{border-collapse:collapse;width:100%}th,td{border:1px solid #ddd;padding:10px;text-align:left}th{background:#f3f3f3}.empty{color:#666}</style></head>
+<body><h1>Список пользователей (демо-данные или PostgreSQL)</h1>
+<table><thead><tr><th>Id</th><th>Имя</th><th>Email</th><th>Возраст</th></tr></thead><tbody>
+$foreach(var user in Users)
+<tr><td>${user.Id}</td><td>${user.Name}</td><td>${user.Email}</td><td>${user.Age}</td></tr>
+$endfor
+</tbody></table>
+<p><a href="/user/profile">Профиль</a> | <a href="/Product/List">Продукты</a></p></body></html>

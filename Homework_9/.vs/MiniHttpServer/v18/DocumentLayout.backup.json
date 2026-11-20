@@ -1,0 +1,79 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Gregory\\Desktop\\MiniHttpServerProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4A5A8114-9A26-4E9F-9234-0A3C5AC98C04}|MiniHttpServer.ORM\\MiniHttpServer.ORM.csproj|c:\\users\\gregory\\desktop\\minihttpserverproject\\minihttpserver.orm\\ormcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A5A8114-9A26-4E9F-9234-0A3C5AC98C04}|MiniHttpServer.ORM\\MiniHttpServer.ORM.csproj|solutionrelative:minihttpserver.orm\\ormcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A5A8114-9A26-4E9F-9234-0A3C5AC98C04}|MiniHttpServer.ORM\\MiniHttpServer.ORM.csproj|c:\\users\\gregory\\desktop\\minihttpserverproject\\minihttpserver.orm\\iormcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A5A8114-9A26-4E9F-9234-0A3C5AC98C04}|MiniHttpServer.ORM\\MiniHttpServer.ORM.csproj|solutionrelative:minihttpserver.orm\\iormcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A5A8114-9A26-4E9F-9234-0A3C5AC98C01}|MiniHttpServer\\MiniHttpServer.csproj|c:\\users\\gregory\\desktop\\minihttpserverproject\\minihttpserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A5A8114-9A26-4E9F-9234-0A3C5AC98C01}|MiniHttpServer\\MiniHttpServer.csproj|solutionrelative:minihttpserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OrmContext.cs",
+              "DocumentMoniker": "C:\\Users\\Gregory\\Desktop\\MiniHttpServerProject\\MiniHttpServer.ORM\\OrmContext.cs",
+              "RelativeDocumentMoniker": "MiniHttpServer.ORM\\OrmContext.cs",
+              "ToolTip": "C:\\Users\\Gregory\\Desktop\\MiniHttpServerProject\\MiniHttpServer.ORM\\OrmContext.cs",
+              "RelativeToolTip": "MiniHttpServer.ORM\\OrmContext.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAUwAMAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-20T21:12:05.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IOrmContext.cs",
+              "DocumentMoniker": "C:\\Users\\Gregory\\Desktop\\MiniHttpServerProject\\MiniHttpServer.ORM\\IOrmContext.cs",
+              "RelativeDocumentMoniker": "MiniHttpServer.ORM\\IOrmContext.cs",
+              "ToolTip": "C:\\Users\\Gregory\\Desktop\\MiniHttpServerProject\\MiniHttpServer.ORM\\IOrmContext.cs",
+              "RelativeToolTip": "MiniHttpServer.ORM\\IOrmContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-20T21:12:02.071Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Gregory\\Desktop\\MiniHttpServerProject\\MiniHttpServer\\Program.cs",
+              "RelativeDocumentMoniker": "MiniHttpServer\\Program.cs",
+              "ToolTip": "C:\\Users\\Gregory\\Desktop\\MiniHttpServerProject\\MiniHttpServer\\Program.cs",
+              "RelativeToolTip": "MiniHttpServer\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-20T21:09:22.589Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

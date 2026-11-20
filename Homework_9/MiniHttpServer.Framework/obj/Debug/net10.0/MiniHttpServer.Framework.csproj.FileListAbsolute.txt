@@ -1,0 +1,15 @@
+C:\Users\Gregory\Desktop\MiniHttpServerProject\MiniHttpServer.Framework\bin\Debug\net10.0\MiniHttpServer.Framework.deps.json
+C:\Users\Gregory\Desktop\MiniHttpServerProject\MiniHttpServer.Framework\bin\Debug\net10.0\MiniHttpServer.Framework.dll
+C:\Users\Gregory\Desktop\MiniHttpServerProject\MiniHttpServer.Framework\bin\Debug\net10.0\MiniHttpServer.Framework.pdb
+C:\Users\Gregory\Desktop\MiniHttpServerProject\MiniHttpServer.Framework\bin\Debug\net10.0\MiniHttpServer.HtmlTemplating.dll
+C:\Users\Gregory\Desktop\MiniHttpServerProject\MiniHttpServer.Framework\bin\Debug\net10.0\MiniHttpServer.HtmlTemplating.pdb
+C:\Users\Gregory\Desktop\MiniHttpServerProject\MiniHttpServer.Framework\obj\Debug\net10.0\MiniHttpServer.Framework.csproj.AssemblyReference.cache
+C:\Users\Gregory\Desktop\MiniHttpServerProject\MiniHttpServer.Framework\obj\Debug\net10.0\MiniHttpServer.Framework.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gregory\Desktop\MiniHttpServerProject\MiniHttpServer.Framework\obj\Debug\net10.0\MiniHttpServer.Framework.AssemblyInfoInputs.cache
+C:\Users\Gregory\Desktop\MiniHttpServerProject\MiniHttpServer.Framework\obj\Debug\net10.0\MiniHttpServer.Framework.AssemblyInfo.cs
+C:\Users\Gregory\Desktop\MiniHttpServerProject\MiniHttpServer.Framework\obj\Debug\net10.0\MiniHttpServer.Framework.csproj.CoreCompileInputs.cache
+C:\Users\Gregory\Desktop\MiniHttpServerProject\MiniHttpServer.Framework\obj\Debug\net10.0\MiniHttp.D7E1F248.Up2Date
+C:\Users\Gregory\Desktop\MiniHttpServerProject\MiniHttpServer.Framework\obj\Debug\net10.0\MiniHttpServer.Framework.dll
+C:\Users\Gregory\Desktop\MiniHttpServerProject\MiniHttpServer.Framework\obj\Debug\net10.0\refint\MiniHttpServer.Framework.dll
+C:\Users\Gregory\Desktop\MiniHttpServerProject\MiniHttpServer.Framework\obj\Debug\net10.0\MiniHttpServer.Framework.pdb
+C:\Users\Gregory\Desktop\MiniHttpServerProject\MiniHttpServer.Framework\obj\Debug\net10.0\ref\MiniHttpServer.Framework.dll
