@@ -1,0 +1,3 @@
+<Project Sdk="Microsoft.NET.Sdk"><PropertyGroup><TargetFramework>net10.0</TargetFramework><ImplicitUsings>enable</ImplicitUsings><Nullable>enable</Nullable></PropertyGroup><ItemGroup><ProjectReference Include="../MiniHttpServer.HtmlTemplating/MiniHttpServer.HtmlTemplating.csproj" /></ItemGroup><ItemGroup><InternalsVisibleTo Include="MiniHttpServer.Framework.UnitTests" /></ItemGroup><ItemGroup>
+  <PackageReference Include="Npgsql" Version="11.0.0" />
+</ItemGroup></Project>

@@ -1,0 +1,4 @@
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+using MiniHttpServer.Framework.Attributes;
+namespace MiniHttpServer.Framework.UnitTests.Routing;
+[TestClass] public class AttributeTests { [TestMethod] public void ControllerAttribute_AppliesToClass(){Assert.IsNotNull(typeof(SampleController).GetCustomAttributes(typeof(ControllerAttribute),false).SingleOrDefault());} [TestMethod] public void GetAttribute_AppliesToMethod(){Assert.IsNotNull(typeof(SampleController).GetMethod(nameof(SampleController.Read))!.GetCustomAttributes(typeof(GetAttribute),true).SingleOrDefault());} [TestMethod] public void PostAttribute_AppliesToMethod(){Assert.IsNotNull(typeof(SampleController).GetMethod(nameof(SampleController.Write))!.GetCustomAttributes(typeof(PostAttribute),true).SingleOrDefault());} [Controller] private class SampleController { [Get] public void Read(){} [Post] public void Write(){} } }
