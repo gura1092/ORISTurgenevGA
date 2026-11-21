@@ -1,0 +1,20 @@
+# .NET build artifacts
+**/bin/
+**/obj/
+
+# IDE
+.vs/
+.idea/
+*.user
+*.suo
+
+# Test output
+**/TestResults/
+
+# Logs and temporary files
+*.log
+*.cache
+
+# OS
+Thumbs.db
+.DS_Store
