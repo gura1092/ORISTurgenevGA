@@ -13,10 +13,13 @@ namespace MiniHttpServer
     {
         static void Main(string[] args)
         {
-            string settings = File.ReadAllText("Setting.json");
+            string settingsPath = Path.Combine(AppContext.BaseDirectory, "Setting.json");
+            string settings = File.ReadAllText(settingsPath);
             ServerSettings setting = JsonSerializer.Deserialize<ServerSettings>(settings);
 
-            HttpServerFigm server = new HttpServerFigm($"http://{setting.Server.Host}:{setting.Server.Port}/", "C:\\Users\\Gregory\\Desktop\\Homework_2\\MiniHttpServer\\FigmaSearch.html");
+            HttpServerFigm server = new HttpServerFigm(
+                $"http://{setting.Server.Host}:{setting.Server.Port}/",
+                Path.Combine(AppContext.BaseDirectory, "FigmaSearch.html"));
 
             Task serverTask = Task.Run(() => server.Start());
 
